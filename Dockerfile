@@ -12,6 +12,6 @@ RUN npm audit fix
 COPY src/ src/
 COPY .env ./
 
-EXPOSE 80
+EXPOSE 3000
 
 CMD npm start
